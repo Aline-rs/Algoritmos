@@ -1,0 +1,11 @@
+algoritmo
+var
+   N1, N2, S: Inteiro
+inicio
+     Escreval ("Digite um número:")
+     Leia (N1)
+     Escreval ("Agora, digite outro número:")
+     Leia (N2)
+     S <- N1 + N2
+     Escreval ("A soma é ", S)
+fimalgoritmo
