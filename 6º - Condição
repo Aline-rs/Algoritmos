@@ -1,0 +1,18 @@
+Algoritmo
+
+VAR
+
+	N1, N2, D1, D2: Real
+INICIO
+	Escreva ("Digite um número: ")
+	Leia (N1)
+	Escreva ("Digite outro número: ")
+	Leia (N2)
+	D1 <- N1 - N2
+	Se (N1 > N2) então
+		Escreval ("A diferença de ", N1, " e ", N2, " é: ")
+	Senão
+	D2 <- N2 - N1 
+ 		Escreval ("A diferença de ", N2, " e ", N1, " é: ")
+	FimSe
+Fimalgoritmo
