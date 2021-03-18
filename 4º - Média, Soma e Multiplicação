@@ -1,0 +1,16 @@
+Algoritmo
+
+VAR
+	N1, N2, ME,SOMA,MULT: Real
+INICIO
+	Escreva ("Digite a primeira nota: ")
+	Leia (N1)
+	Escreva ("Digite a segunda nota: ")
+	Leia (N2)
+	ME <- (N1 + N2)/2
+	SOMA <- (N1 + N2)
+	MULT <- (N1 * N2)
+	Escreval ("A média é: ", ME)
+	Escreval ("A soma é: ", SOMA)
+	Escreval ("A multiplicação é: ", MULT)
+Fimalgoritmo
