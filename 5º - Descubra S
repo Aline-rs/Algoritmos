@@ -1,0 +1,18 @@
+Algoritmo 
+
+VAR
+	S, R, Z, A, B, C: Inteiro
+INICIO
+	Escreva ("Digite o primeiro número: ")
+	Leia (A)
+	Escreva ("Digite o segundo número: ")
+	Leia (B)
+	Escreva ("Digite o terceiro número: ")
+	Leia (C)
+
+	R <- A + B
+	Z <- B + C
+	S <- R + Z
+
+	Escreval ("O valor de S é: ", S)
+Fimalgoritmo
